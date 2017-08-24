@@ -1,14 +1,17 @@
 import {RouterModule, Routes} from "@angular/router";
 import {HomeComponent} from "./components/home.component";
 import {AboutComponent} from "./components/about.component";
+import {PostsComponent} from "./components/posts.component";
 
 export const allAppComponents = [
 	HomeComponent,
-	AboutComponent
+	AboutComponent,
+	PostsComponent
 ];
 
 export const routes: Routes = [
 	{path: "about", component: AboutComponent},
+	{path: "posts", component: PostsComponent},
 	{path: "", component: HomeComponent},
 	{path: "**", redirectTo: ""}
 ];
