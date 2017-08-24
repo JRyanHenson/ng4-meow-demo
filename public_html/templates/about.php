@@ -19,4 +19,5 @@
 			</div>
 		</main>
 	</div><!--/.sfooter-content-->
+	<meowfooter></meowfooter>
 </div>
